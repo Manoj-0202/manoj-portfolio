@@ -14,7 +14,7 @@ export const skills = {
   'DevOps & Tools': ['Git', 'GitHub', 'Docker', 'Docker Compose', 'Postman', 'VS Code'],
   'AI & Automation': ['AI Automation', 'Test Automation', 'Browser Extensions', 'OCR workflows', 'AI-assisted test generation']
 }
-export const experience = { role: 'Associate Software Engineer', company: 'VNC Digital Services Pvt Ltd', date: 'Present · Add dates in portfolioData.js', points: ['Develop frontend features with React and JavaScript.', 'Build and integrate REST APIs with Python and FastAPI services.', 'Contribute to Dockerized microservices, authentication flows and database-backed applications.', 'Investigate production issues and collaborate through Git-based development workflows.'] }
+export const experience = { role: 'Associate Software Engineer', company: 'VNC Digital Services Pvt Ltd', date: 'Permanent role · Present', priorRole: 'Software Engineering Intern · Joined April 16, 2025', points: ['Develop frontend features with React and JavaScript.', 'Build and integrate REST APIs with Python and FastAPI services.', 'Contribute to Dockerized microservices, authentication flows and database-backed applications.', 'Investigate production issues and collaborate through Git-based development workflows.'] }
 export const services = ['Responsive React websites', 'Business dashboards', 'REST API integrations', 'Python / FastAPI backend APIs', 'Full-stack applications', 'Authentication systems', 'Automation tools', 'AI-integrated applications', 'Dockerized applications']
 export const projects = [{
   name: 'CoreDon AI Automation Studio', type: 'Enterprise AI Test Automation Platform', featured: true,
@@ -22,6 +22,7 @@ export const projects = [{
   technologies: ['React', 'JavaScript', 'Python', 'FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'Microservices'],
   features: ['AI-assisted test case generation', 'OCR and image-based UI extraction', 'Locator enrichment and Page Object Model generation', 'Browser extension integration', 'Execution reports and access management'], github: '', caseStudy: true
 },
-{ name: 'React Web Application', type: 'Replace with your project', description: 'Configurable project placeholder. Add a concise description and links in portfolioData.js.', technologies: ['React', 'JavaScript'], github: '' },
-{ name: 'FastAPI Service', type: 'Replace with your project', description: 'Configurable project placeholder for an API or backend system.', technologies: ['Python', 'FastAPI', 'REST APIs'], github: '' },
-{ name: 'Automation Utility', type: 'Replace with your project', description: 'Configurable project placeholder for an automation workflow or developer tool.', technologies: ['Python', 'Automation'], github: '' }]
+{ name: 'Yoga Mobile Application', type: 'Mobile Application', description: 'A yoga-focused mobile application built with Capacitor.js. Update this entry with the app’s features, platform links, and repository when available.', technologies: ['Capacitor.js', 'Mobile Application'], github: '' },
+{ name: 'FastAPI REST API Service', type: 'Backend API Project', description: 'A configurable backend project entry for a Python and FastAPI service. Add the domain, key endpoints, database details, and repository link when ready.', technologies: ['Python', 'FastAPI', 'REST APIs', 'PostgreSQL'], github: '' },
+{ name: 'Browser Automation Utility', type: 'Automation Project', description: 'A configurable project entry for a browser automation workflow or extension. Add the specific workflow, integrations, and repository link when available.', technologies: ['Python', 'Browser Extensions', 'Test Automation'], github: '' },
+{ name: 'Full-Stack Web Application', type: 'Full-Stack Project', description: 'A configurable project entry for a modern web application with frontend, API, and database layers. Replace this description with your project details.', technologies: ['React', 'JavaScript', 'FastAPI', 'MySQL'], github: '' }]

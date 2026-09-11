@@ -1,12 +1,8 @@
-import { ArrowDownToLine, Github, Linkedin } from 'lucide-react'
+import { Github, Linkedin } from 'lucide-react'
 import { profile } from '../data/portfolioData'
 
 export function scrollToSection(id) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
-}
-
-export function ResumeButton() {
-  return <a className="button ghost" href="/Manoj-Kumar-R-Resume.pdf" download><ArrowDownToLine size={16} /> Resume</a>
 }
 
 export function SocialLinks() {
